@@ -1,20 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="bg" lang="bg">
 
 <head>
 <title>Array definition.</title>
-<meta name="description" content="Как да декларираме масив в C++ source."/>
-<meta name="keywords" content="programming, lessons, Bulgaria, урок по програмиране, програмиране, въведение в програмирането, програмиране на C++, C++ programming" />
+<meta name="description" content="РљР°Рє РґР° РґРµРєР»Р°СЂРёСЂР°РјРµ РјР°СЃРёРІ РІ C++ source."/>
+<meta name="keywords" content="programming, lessons, Bulgaria, СѓСЂРѕРє РїРѕ РїСЂРѕРіСЂР°РјРёСЂР°РЅРµ, РїСЂРѕРіСЂР°РјРёСЂР°РЅРµ, РІСЉРІРµРґРµРЅРёРµ РІ РїСЂРѕРіСЂР°РјРёСЂР°РЅРµС‚Рѕ, РїСЂРѕРіСЂР°РјРёСЂР°РЅРµ РЅР° C++, C++ programming" />
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="21 days" />
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <!-- metadata -->
 <meta name="generator" content="S5" />
 <meta name="version" content="S5 1.1" />
 <meta name="presdate" content="20150827" />
-<meta name="author" content="Кирил Иларионов" />
+<meta name="author" content="РљРёСЂРёР» РР»Р°СЂРёРѕРЅРѕРІ" />
 <!-- configuration parameters -->
 <meta name="defaultView" content="slideshow" />
 <!-- meta name="controlVis" content="hidden" /-->
@@ -34,15 +34,15 @@
 <div id="header"></div>
 <div id="footer">
 <h1>Bulgaria / August 2015 / k.ilarionov at gmail.com</h1>
-<h2>Масиви. Програмиране на C++ за начинаещи.</h2>
+<h2>РњР°СЃРёРІРё. РџСЂРѕРіСЂР°РјРёСЂР°РЅРµ РЅР° C++ Р·Р° РЅР°С‡РёРЅР°РµС‰Рё.</h2>
 </div>
 </div>
 <br/>
 <div class="presentation">
 
 <div class="slide">
-<h1>Как да декларираме масив?</h1>
-<h2>Кирил Иларионов</h2>
+<h1>РљР°Рє РґР° РґРµРєР»Р°СЂРёСЂР°РјРµ РјР°СЃРёРІ?</h1>
+<h2>РљРёСЂРёР» РР»Р°СЂРёРѕРЅРѕРІ</h2>
 <h2>k.ilarionov at gmail.com</h2>
 <p class="verify">
     <a href="http://validator.w3.org/check?uri=referer"><img
@@ -51,22 +51,22 @@
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Валиден CSS!" />
+        alt="Р’Р°Р»РёРґРµРЅ CSS!" />
 </a>
 </p>
 <ol start="16">
-<li>Следваики общите правила за деклариране на променливи, обявяваме <strong>име</strong>то <strong>на масива</strong> и <strong>тип</strong>а му. Типът му е тип на компонентите на масива.</li>
-<li>При декларирането на масив се указва и <strong>размерност</strong>, в смисъл на <strong>дясна</strong> граница на интервал за <strong>индекс</strong>(а)/(ите) му. Дясната граница на интервала се изписва оградена с <strong>квадратни</strong> скоби.</li>
-<li>Масивите могат да имат <strong>повече от един индекс</strong>. Масив за самолетни билети, <em>ред и място</em>.</li>
+<li>РЎР»РµРґРІР°РёРєРё РѕР±С‰РёС‚Рµ РїСЂР°РІРёР»Р° Р·Р° РґРµРєР»Р°СЂРёСЂР°РЅРµ РЅР° РїСЂРѕРјРµРЅР»РёРІРё, РѕР±СЏРІСЏРІР°РјРµ <strong>РёРјРµ</strong>С‚Рѕ <strong>РЅР° РјР°СЃРёРІР°</strong> Рё <strong>С‚РёРї</strong>Р° РјСѓ. РўРёРїСЉС‚ РјСѓ Рµ С‚РёРї РЅР° РєРѕРјРїРѕРЅРµРЅС‚РёС‚Рµ РЅР° РјР°СЃРёРІР°.</li>
+<li>РџСЂРё РґРµРєР»Р°СЂРёСЂР°РЅРµС‚Рѕ РЅР° РјР°СЃРёРІ СЃРµ СѓРєР°Р·РІР° Рё <strong>СЂР°Р·РјРµСЂРЅРѕСЃС‚</strong>, РІ СЃРјРёСЃСЉР» РЅР° <strong>РґСЏСЃРЅР°</strong> РіСЂР°РЅРёС†Р° РЅР° РёРЅС‚РµСЂРІР°Р» Р·Р° <strong>РёРЅРґРµРєСЃ</strong>(Р°)/(РёС‚Рµ) РјСѓ. Р”СЏСЃРЅР°С‚Р° РіСЂР°РЅРёС†Р° РЅР° РёРЅС‚РµСЂРІР°Р»Р° СЃРµ РёР·РїРёСЃРІР° РѕРіСЂР°РґРµРЅР° СЃ <strong>РєРІР°РґСЂР°С‚РЅРё</strong> СЃРєРѕР±Рё.</li>
+<li>РњР°СЃРёРІРёС‚Рµ РјРѕРіР°С‚ РґР° РёРјР°С‚ <strong>РїРѕРІРµС‡Рµ РѕС‚ РµРґРёРЅ РёРЅРґРµРєСЃ</strong>. РњР°СЃРёРІ Р·Р° СЃР°РјРѕР»РµС‚РЅРё Р±РёР»РµС‚Рё, <em>СЂРµРґ Рё РјСЏСЃС‚Рѕ</em>.</li>
 </ol>
 <div class="menuHorizontal">
-<a href="./index.html">Изход</a>
+<a href="./index.html">РР·С…РѕРґ</a>
 </div>
 </div>
 
 <div class="slide">
-<h1>Примери за деклариране на масив.</h1>
-<h2>Кирил Иларионов</h2>
+<h1>РџСЂРёРјРµСЂРё Р·Р° РґРµРєР»Р°СЂРёСЂР°РЅРµ РЅР° РјР°СЃРёРІ.</h1>
+<h2>РљРёСЂРёР» РР»Р°СЂРёРѕРЅРѕРІ</h2>
 <h2>k.ilarionov at gmail.com</h2>
 <p class="verify">
     <a href="http://validator.w3.org/check?uri=referer"><img
@@ -75,16 +75,16 @@
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Валиден CSS!" />
+        alt="Р’Р°Р»РёРґРµРЅ CSS!" />
 </a>
 </p>
 <ol start="19">
-<li><code>int validMarks [5] ;</code><br/>Деклариран е <strong>масив</strong> от <strong>пет цели числа</strong> с <strong>име validMarks</strong>. Масивът validMarks e пример за <strong>едномерен масив</strong>.</li>
-<li><code>int seats [24][6] ;</code><br/>Деклариран е <strong>масив</strong> от <strong>24 реда</strong>, с по <strong>6 елемента във всеки ред</strong>. Масивът seats е пример за <strong>двумерен масив</strong>.</li>
-<li><a href="./initialize-the-array.html"><strong>Инициализиране</strong>то <strong>на масив</strong>а</a> може да стане при декларирането му.</li>
+<li><code>int validMarks [5] ;</code><br/>Р”РµРєР»Р°СЂРёСЂР°РЅ Рµ <strong>РјР°СЃРёРІ</strong> РѕС‚ <strong>РїРµС‚ С†РµР»Рё С‡РёСЃР»Р°</strong> СЃ <strong>РёРјРµ validMarks</strong>. РњР°СЃРёРІСЉС‚ validMarks e РїСЂРёРјРµСЂ Р·Р° <strong>РµРґРЅРѕРјРµСЂРµРЅ РјР°СЃРёРІ</strong>.</li>
+<li><code>int seats [24][6] ;</code><br/>Р”РµРєР»Р°СЂРёСЂР°РЅ Рµ <strong>РјР°СЃРёРІ</strong> РѕС‚ <strong>24 СЂРµРґР°</strong>, СЃ РїРѕ <strong>6 РµР»РµРјРµРЅС‚Р° РІСЉРІ РІСЃРµРєРё СЂРµРґ</strong>. РњР°СЃРёРІСЉС‚ seats Рµ РїСЂРёРјРµСЂ Р·Р° <strong>РґРІСѓРјРµСЂРµРЅ РјР°СЃРёРІ</strong>.</li>
+<li><a href="./initialize-the-array.html"><strong>РРЅРёС†РёР°Р»РёР·РёСЂР°РЅРµ</strong>С‚Рѕ <strong>РЅР° РјР°СЃРёРІ</strong>Р°</a> РјРѕР¶Рµ РґР° СЃС‚Р°РЅРµ РїСЂРё РґРµРєР»Р°СЂРёСЂР°РЅРµС‚Рѕ РјСѓ.</li>
 </ol>
 <div class="menuHorizontal">
-<a href="./index.html">Изход</a>
+<a href="./index.html">РР·С…РѕРґ</a>
 </div>
 </div>
 

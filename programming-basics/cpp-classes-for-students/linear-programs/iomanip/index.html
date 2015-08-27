@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="bg" lang="bg">
@@ -7,14 +7,14 @@
 <title>IOMANIP</title>
 <meta name="keywords" content="iomanip" />
 <meta name="description" content="Introduction to C++ iomanip library."/>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <!-- metadata -->
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="30 days" />
 <meta name="generator" content="S5" />
 <meta name="version" content="S5 1.1" />
 <meta name="presdate" content="20120728" />
-<meta name="author" content="Кирил Иларионов" />
+<meta name="author" content="РљРёСЂРёР» РР»Р°СЂРёРѕРЅРѕРІ" />
 <!-- configuration parameters -->
 <meta name="defaultView" content="slideshow" />
 <!-- meta name="controlVis" content="hidden" /-->
@@ -43,41 +43,41 @@
 <h1 class="center">iomanip</h1>
 <ul>
 <li>
-<b>iomanip</b> - библиотека за <i>форматиране на входа или изхода.</i> Най често се използва
-за създаване на стандартно подреден изходен поток, с цел повишена читаемост и/или последваща обработка.
+<b>iomanip</b> - Р±РёР±Р»РёРѕС‚РµРєР° Р·Р° <i>С„РѕСЂРјР°С‚РёСЂР°РЅРµ РЅР° РІС…РѕРґР° РёР»Рё РёР·С…РѕРґР°.</i> РќР°Р№ С‡РµСЃС‚Рѕ СЃРµ РёР·РїРѕР»Р·РІР°
+Р·Р° СЃСЉР·РґР°РІР°РЅРµ РЅР° СЃС‚Р°РЅРґР°СЂС‚РЅРѕ РїРѕРґСЂРµРґРµРЅ РёР·С…РѕРґРµРЅ РїРѕС‚РѕРє, СЃ С†РµР» РїРѕРІРёС€РµРЅР° С‡РёС‚Р°РµРјРѕСЃС‚ Рё/РёР»Рё РїРѕСЃР»РµРґРІР°С‰Р° РѕР±СЂР°Р±РѕС‚РєР°.
 </li>
-<li>За да работите с <code>iomanip</code> необходимо е да напишете:<br/>
+<li>Р—Р° РґР° СЂР°Р±РѕС‚РёС‚Рµ СЃ <code>iomanip</code> РЅРµРѕР±С…РѕРґРёРјРѕ Рµ РґР° РЅР°РїРёС€РµС‚Рµ:<br/>
 <code>#include &lt;iomanip&gt;</code>
 </li>
 </ul>
-<p class="center"><a href="../index.html">Изход</a></p>
+<p class="center"><a href="../index.html">РР·С…РѕРґ</a></p>
 </div>
 
 <div class="slide">
-<h2 class="center">Основна функционалност на iomanip</h2>
+<h2 class="center">РћСЃРЅРѕРІРЅР° С„СѓРЅРєС†РёРѕРЅР°Р»РЅРѕСЃС‚ РЅР° iomanip</h2>
 <ul>
-<li>Най-често използвани входно-изходни манипулатори:
+<li>РќР°Р№-С‡РµСЃС‚Рѕ РёР·РїРѕР»Р·РІР°РЅРё РІС…РѕРґРЅРѕ-РёР·С…РѕРґРЅРё РјР°РЅРёРїСѓР»Р°С‚РѕСЂРё:
 <ul>
 <li>
-<code>setw()</code> - задава ширина за следващото изходно поле
+<code>setw()</code> - Р·Р°РґР°РІР° С€РёСЂРёРЅР° Р·Р° СЃР»РµРґРІР°С‰РѕС‚Рѕ РёР·С…РѕРґРЅРѕ РїРѕР»Рµ
 </li>
 <li>
-<code>hex</code> -  задава <b>шеснадесетичен</b> запис за <i>целите</i> числа от потока.
+<code>hex</code> -  Р·Р°РґР°РІР° <b>С€РµСЃРЅР°РґРµСЃРµС‚РёС‡РµРЅ</b> Р·Р°РїРёСЃ Р·Р° <i>С†РµР»РёС‚Рµ</i> С‡РёСЃР»Р° РѕС‚ РїРѕС‚РѕРєР°.
 </li>
 <li>
-<code>dec</code> -  задава <b>десетичен</b> запис за <i>целите</i> числа. Използва се по премълчаване.
+<code>dec</code> -  Р·Р°РґР°РІР° <b>РґРµСЃРµС‚РёС‡РµРЅ</b> Р·Р°РїРёСЃ Р·Р° <i>С†РµР»РёС‚Рµ</i> С‡РёСЃР»Р°. РР·РїРѕР»Р·РІР° СЃРµ РїРѕ РїСЂРµРјСЉР»С‡Р°РІР°РЅРµ.
 </li>
 <li>
-<code>oct</code> -  задава <b>осмичен</b> запис за <i>целите</i> числа
+<code>oct</code> -  Р·Р°РґР°РІР° <b>РѕСЃРјРёС‡РµРЅ</b> Р·Р°РїРёСЃ Р·Р° <i>С†РµР»РёС‚Рµ</i> С‡РёСЃР»Р°
 </li>
 <li>
-<code>setprecision()</code> -  задава <b>броя на значещите цифри</b> при отпечатване на <i><code>double</code> или <code>float</code></i>
+<code>setprecision()</code> -  Р·Р°РґР°РІР° <b>Р±СЂРѕСЏ РЅР° Р·РЅР°С‡РµС‰РёС‚Рµ С†РёС„СЂРё</b> РїСЂРё РѕС‚РїРµС‡Р°С‚РІР°РЅРµ РЅР° <i><code>double</code> РёР»Рё <code>float</code></i>
 </li>
 </ul>
 </li>
-<li><a href="./iomanip_examples.html">ПРИМЕРИ</a></li>
+<li><a href="./iomanip_examples.html">РџР РРњР•Р Р</a></li>
 </ul>
-<p class="center"><a href="../index.html">Изход</a></p>
+<p class="center"><a href="../index.html">РР·С…РѕРґ</a></p>
 </div>
 
 </body>

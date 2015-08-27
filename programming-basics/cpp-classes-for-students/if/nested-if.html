@@ -1,20 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="bg" lang="bg">
 
 <head>
-<title>Вложени if оператори, C++</title>
-<meta name="keywords" content="if, if statement, nested if, вложени if, excersices, упражнения" />
+<title>Р’Р»РѕР¶РµРЅРё if РѕРїРµСЂР°С‚РѕСЂРё, C++</title>
+<meta name="keywords" content="if, if statement, nested if, РІР»РѕР¶РµРЅРё if, excersices, СѓРїСЂР°Р¶РЅРµРЅРёСЏ" />
 <meta name="description" content=" Nested if statements, constructed examples and exercsices."/>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <!-- metadata -->
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="45 days" />
 <meta name="generator" content="S5" />
 <meta name="version" content="S5 1.1" />
 <meta name="presdate" content="20130530" />
-<meta name="author" content="Кирил Иларионов" />
+<meta name="author" content="РљРёСЂРёР» РР»Р°СЂРёРѕРЅРѕРІ" />
 <!-- configuration parameters -->
 <meta name="defaultView" content="slideshow" />
 <!-- meta name="controlVis" content="hidden" /-->
@@ -34,40 +34,40 @@
 <div id="header"></div>
 <div id="footer">
 <h2 class="left">Bulgaria / May 2013 / k.ilarionov at gmail.com</h2>
-<h3 class="left">Вложени if оператори</h3>
+<h3 class="left">Р’Р»РѕР¶РµРЅРё if РѕРїРµСЂР°С‚РѕСЂРё</h3>
 </div>
 
 
 <div class="slide">
-<h1>вложени if - КОГА?</h1>
+<h1>РІР»РѕР¶РµРЅРё if - РљРћР“Рђ?</h1>
 <br/>
-<em><code>if</code> операторът</em> осигурява механизъм за <em>избор на един или два варианта</em>, в зависимост от резултата на проверяваното логическо условие.
+<em><code>if</code> РѕРїРµСЂР°С‚РѕСЂСЉС‚</em> РѕСЃРёРіСѓСЂСЏРІР° РјРµС…Р°РЅРёР·СЉРј Р·Р° <em>РёР·Р±РѕСЂ РЅР° РµРґРёРЅ РёР»Рё РґРІР° РІР°СЂРёР°РЅС‚Р°</em>, РІ Р·Р°РІРёСЃРёРјРѕСЃС‚ РѕС‚ СЂРµР·СѓР»С‚Р°С‚Р° РЅР° РїСЂРѕРІРµСЂСЏРІР°РЅРѕС‚Рѕ Р»РѕРіРёС‡РµСЃРєРѕ СѓСЃР»РѕРІРёРµ.
 <br/><br/>
-Логиката на решаваната задача често изисква <em>повече от <b>два</b> варианта</em> за коректното обработване на данните, примерно:
+Р›РѕРіРёРєР°С‚Р° РЅР° СЂРµС€Р°РІР°РЅР°С‚Р° Р·Р°РґР°С‡Р° С‡РµСЃС‚Рѕ РёР·РёСЃРєРІР° <em>РїРѕРІРµС‡Рµ РѕС‚ <b>РґРІР°</b> РІР°СЂРёР°РЅС‚Р°</em> Р·Р° РєРѕСЂРµРєС‚РЅРѕС‚Рѕ РѕР±СЂР°Р±РѕС‚РІР°РЅРµ РЅР° РґР°РЅРЅРёС‚Рµ, РїСЂРёРјРµСЂРЅРѕ:
 <ul>
 <li>
-при избор на поръчвана от Вас пица,
-можете да отговорите с <em>ДА</em>, <em>НЕ</em> или с <em>НЕ ЗНАМ</em>.
+РїСЂРё РёР·Р±РѕСЂ РЅР° РїРѕСЂСЉС‡РІР°РЅР° РѕС‚ Р’Р°СЃ РїРёС†Р°,
+РјРѕР¶РµС‚Рµ РґР° РѕС‚РіРѕРІРѕСЂРёС‚Рµ СЃ <em>Р”Рђ</em>, <em>РќР•</em> РёР»Рё СЃ <em>РќР• Р—РќРђРњ</em>.
 </li>
 </ul>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - КОГА?</h2>
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РљРћР“Рђ?</h2>
 <br/>
-При избор свързан с <em>повече от <b>два</b> варианта</em><br/>
-използваме повече от един <code>if</code> оператор.<br/>
+РџСЂРё РёР·Р±РѕСЂ СЃРІСЉСЂР·Р°РЅ СЃ <em>РїРѕРІРµС‡Рµ РѕС‚ <b>РґРІР°</b> РІР°СЂРёР°РЅС‚Р°</em><br/>
+РёР·РїРѕР»Р·РІР°РјРµ РїРѕРІРµС‡Рµ РѕС‚ РµРґРёРЅ <code>if</code> РѕРїРµСЂР°С‚РѕСЂ.<br/>
 <br/>
-Нека отговорите на въпроса: Той обича ли пица?<br/> са при въвеждане на:<br/><br/>
-0 - ДА<br/>
-1 - НЕ<br/>
-2 - НЕ ЗНАМ<br/><br/>
-Ето как може да се конструира такъв многовариантен избор:<br/>
-<div class="center"><a href="./index.html">Изход</a></div>
+РќРµРєР° РѕС‚РіРѕРІРѕСЂРёС‚Рµ РЅР° РІСЉРїСЂРѕСЃР°: РўРѕР№ РѕР±РёС‡Р° Р»Рё РїРёС†Р°?<br/> СЃР° РїСЂРё РІСЉРІРµР¶РґР°РЅРµ РЅР°:<br/><br/>
+0 - Р”Рђ<br/>
+1 - РќР•<br/>
+2 - РќР• Р—РќРђРњ<br/><br/>
+Р•С‚Рѕ РєР°Рє РјРѕР¶Рµ РґР° СЃРµ РєРѕРЅСЃС‚СЂСѓРёСЂР° С‚Р°РєСЉРІ РјРЅРѕРіРѕРІР°СЂРёР°РЅС‚РµРЅ РёР·Р±РѕСЂ:<br/>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 <div class="slide">
-<h2 class="center">вложени if - КАК?</h2>
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РљРђРљ?</h2>
 <code>
 if (0 == ans)<br/>
 cout &lt;&lt;&quot;He likes pica.&quot;;<br/>
@@ -77,18 +77,18 @@ else&nbsp;if (1 == ans)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;&quot;Information is not available.&quot;;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else cout &lt;&lt;&quot;Wrong answer.&quot;;<br/>
 </code>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - ПРИМЕР</h2>
-<br/>Дадени са три числа.<br/><br/>Да се изведе сумата на<br/><em>двете най-големи</em> от тези три числа.
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РџР РРњР•Р </h2>
+<br/>Р”Р°РґРµРЅРё СЃР° С‚СЂРё С‡РёСЃР»Р°.<br/><br/>Р”Р° СЃРµ РёР·РІРµРґРµ СЃСѓРјР°С‚Р° РЅР°<br/><em>РґРІРµС‚Рµ РЅР°Р№-РіРѕР»РµРјРё</em> РѕС‚ С‚РµР·Рё С‚СЂРё С‡РёСЃР»Р°.
 <br/><br/><br/><br/>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - ПРИМЕР</h2>
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РџР РРњР•Р </h2>
 <code>#include &lt;iostream&gt;<br/>
 using namespace std ;<br/>
 main ()<br/>
@@ -99,33 +99,33 @@ if (a >= c &amp;&amp; b >= c)<br/>
 else if (a &gt;= b &amp;&amp; c &gt;= b)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;(a+c);<br/>
 &nbsp;&nbsp;else cout &lt;&lt;(b+c);<br/>
-} // Избройте възможностите за избор.
+} // РР·Р±СЂРѕР№С‚Рµ РІСЉР·РјРѕР¶РЅРѕСЃС‚РёС‚Рµ Р·Р° РёР·Р±РѕСЂ.
 </code>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - Упражнение №1</h2>
-<br/>Дадени са три числа.<br/><br/>Да се изведе сумата на<br/><em>двете най-малки</em> от тези три числа.
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РЈРїСЂР°Р¶РЅРµРЅРёРµ в„–1</h2>
+<br/>Р”Р°РґРµРЅРё СЃР° С‚СЂРё С‡РёСЃР»Р°.<br/><br/>Р”Р° СЃРµ РёР·РІРµРґРµ СЃСѓРјР°С‚Р° РЅР°<br/><em>РґРІРµС‚Рµ РЅР°Р№-РјР°Р»РєРё</em> РѕС‚ С‚РµР·Рё С‚СЂРё С‡РёСЃР»Р°.
 <br/><br/><br/><br/>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - Упражнение №2</h2>
-<br/>Дадени са три числа.<br/><br/>Да се изведе сумата на<br/><em>най-голямото с най-малкото</em> от тези три числа.
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РЈРїСЂР°Р¶РЅРµРЅРёРµ в„–2</h2>
+<br/>Р”Р°РґРµРЅРё СЃР° С‚СЂРё С‡РёСЃР»Р°.<br/><br/>Р”Р° СЃРµ РёР·РІРµРґРµ СЃСѓРјР°С‚Р° РЅР°<br/><em>РЅР°Р№-РіРѕР»СЏРјРѕС‚Рѕ СЃ РЅР°Р№-РјР°Р»РєРѕС‚Рѕ</em> РѕС‚ С‚РµР·Рё С‚СЂРё С‡РёСЃР»Р°.
 <br/><br/><br/><br/>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 <div class="slide">
-<h2 class="center">вложени if - Упражнение №3</h2>
-<br/><b>*</b> Дадени са две цели числа <code>dd</code> (ден) и <code>mm</code> (месец),<br/>формиращи правилна дата от невисокосна тодина.
-<br/><br/>Да се изведат съответните <code>dd</code> и <code>mm</code> <em>за следващия ден.</em>
+<h2 class="center">РІР»РѕР¶РµРЅРё if - РЈРїСЂР°Р¶РЅРµРЅРёРµ в„–3</h2>
+<br/><b>*</b> Р”Р°РґРµРЅРё СЃР° РґРІРµ С†РµР»Рё С‡РёСЃР»Р° <code>dd</code> (РґРµРЅ) Рё <code>mm</code> (РјРµСЃРµС†),<br/>С„РѕСЂРјРёСЂР°С‰Рё РїСЂР°РІРёР»РЅР° РґР°С‚Р° РѕС‚ РЅРµРІРёСЃРѕРєРѕСЃРЅР° С‚РѕРґРёРЅР°.
+<br/><br/>Р”Р° СЃРµ РёР·РІРµРґР°С‚ СЃСЉРѕС‚РІРµС‚РЅРёС‚Рµ <code>dd</code> Рё <code>mm</code> <em>Р·Р° СЃР»РµРґРІР°С‰РёСЏ РґРµРЅ.</em>
 <br/><br/><br/>
-А за <em>вчера?</em> Преди една <em>седмица?</em>
+Рђ Р·Р° <em>РІС‡РµСЂР°?</em> РџСЂРµРґРё РµРґРЅР° <em>СЃРµРґРјРёС†Р°?</em>
 <br/><br/><br/><br/>
-<div class="center"><a href="./index.html">Изход</a></div>
+<div class="center"><a href="./index.html">РР·С…РѕРґ</a></div>
 </div>
 
 </div>
