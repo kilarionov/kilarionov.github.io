@@ -32,7 +32,7 @@ sup {font-size: smaller; line-height: 1px;}
 .slide ul ul li {margin: .2em; font-size: 85%; list-style: square;}
 .slide img.leader {display: block; margin: 0 auto;}
 
-div#header, div#footer {background: #005; color: #AAB;
+div#header, div#footer {background: #005; color: #FFFF00; /* color: #AAB; */
   font-family: Verdana, Helvetica, sans-serif;}
 div#header {background: #005 url(bodybg.gif) -16px 0 no-repeat;
   line-height: 1px;}
@@ -56,10 +56,10 @@ html>body div#controls {position: fixed; padding: 0 0 1em 0;
 div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
   margin: 0; padding: 0;}
 #controls #navLinks a {padding: 0; margin: 0 0.5em; 
-  background: #005; border: none; color: #779; 
+  background: #005; border: none; color: #779; /* color: #FFFF00;  */
   cursor: pointer;}
 #controls #navList {height: 1em;}
-#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #FFFF00;} /* color: #227; */
+#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;} /* color: #227; */
 
 #currentSlide {text-align: center; font-size: 0.5em; color: #449;}
 
