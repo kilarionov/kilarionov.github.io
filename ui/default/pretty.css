@@ -44,7 +44,7 @@ div.long {font-size: 0.75em;}
 .slide h1 {position: absolute; top: 0.7em; left: 87px; z-index: 1;
   margin: 0; padding: 0.3em 0 0 50px; white-space: nowrap;
   font: bold 150%/1em Helvetica, sans-serif; text-transform: capitalize;
-  color: #FFFF00; background: #005;} /*  color: #DDE  */
+  color: #DDE; background: #005;} /*  color: #DDE  */
 .slide h3 {font-size: 130%;}
 h1 abbr {font-variant: small-caps;}
 
@@ -61,12 +61,12 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;} /* <<   >>  */
 
-#currentSlide {text-align: center; font-size: 0.5em; color: #449;}
+#currentSlide {text-align: center; font-size: 0.5em; color: #FFFF00;} /*   color: #449;  */
 
 #slide0 {padding-top: 3.5em; font-size: 85%;}
 #slide0 h1 {position: static; margin: 1em 0 0; padding: 0;
    font: bold 2em Helvetica, sans-serif; white-space: normal;
-   color: #FFFF00; background: transparent;} /* color: #000; */
+   color: #000; background: transparent;} /* color: #000; */
 #slide0 h2 {font: bold italic 1em Helvetica, sans-serif; margin: 0.25em;}
 #slide0 h3 {margin-top: 1.5em; font-size: 1.5em;}
 #slide0 h4 {margin-top: 0; font-size: 1em;}
