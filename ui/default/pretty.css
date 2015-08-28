@@ -59,7 +59,7 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
   background: #005; border: none; color: #FFFF00; /* color: #779;  */
   cursor: pointer;}
 #controls #navList {height: 1em;}
-#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;} /* color: #227; */
+#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #FFFF00;} /* color: #227; */
 
 #currentSlide {text-align: center; font-size: 0.5em; color: #449;}
 
