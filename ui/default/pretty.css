@@ -66,7 +66,7 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 #slide0 {padding-top: 3.5em; font-size: 85%;}
 #slide0 h1 {position: static; margin: 1em 0 0; padding: 0;
    font: bold 2em Helvetica, sans-serif; white-space: normal;
-   color: #000; background: transparent;} /* color: #000; */
+   color: #000; background: transparent;} /* color: #000;  */
 #slide0 h2 {font: bold italic 1em Helvetica, sans-serif; margin: 0.25em;}
 #slide0 h3 {margin-top: 1.5em; font-size: 1.5em;}
 #slide0 h4 {margin-top: 0; font-size: 1em;}
