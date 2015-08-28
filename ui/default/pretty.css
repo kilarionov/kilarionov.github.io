@@ -2,7 +2,7 @@
 
 body {background: #FFF url(bodybg.gif) -16px 0 no-repeat; color: #000; font-size: 2em;}
 :link, :visited {text-decoration: none; color: #00C;}
-#controls :active {color: #FFFF00 !important;} /* #88A */
+#controls :active {color: #88A !important;} /* #88A */
 #controls :focus {outline: 1px dotted #227;}
 h1, h2, h3, h4 {font-size: 100%; margin: 0; padding: 0; font-weight: inherit;}
 ul, pre {margin: 0; line-height: 1em; }
@@ -20,7 +20,7 @@ sup {font-size: smaller; line-height: 1px;}
 
 .slide code {padding: 2px 0.25em; font-weight: bold; color: #533;}
 .slide code.bad, code del {color: red;}
-.slide code.old {color: #FFFF00;}  /*  silver */
+.slide code.old {color: silver;}  /*  silver */
 /*
 	<code><pre> source code </pre></code>
 */
@@ -56,7 +56,7 @@ html>body div#controls {position: fixed; padding: 0 0 1em 0;
 div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
   margin: 0; padding: 0;}
 #controls #navLinks a {padding: 0; margin: 0 0.5em; 
-  background: #005; border: none; color: #779; /* color: #779;  */
+  background: #005; border: none; color: #FFFF00; /* color: #779;  */
   cursor: pointer;}
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;} /* <<   >>  */
