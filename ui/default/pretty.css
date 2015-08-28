@@ -32,7 +32,7 @@ sup {font-size: smaller; line-height: 1px;}
 .slide ul ul li {margin: .2em; font-size: 85%; list-style: square;}
 .slide img.leader {display: block; margin: 0 auto;}
 
-div#header, div#footer {background: #005; color: #FFFF00; /* color: #AAB; Its is a text color.*/
+div#header, div#footer {background: #005; color: PaleGoldenRod; /* color: #AAB; Its is a text color.*/
   font-family: Verdana, Helvetica, sans-serif;}
 div#header {background: #005 url(bodybg.gif) -16px 0 no-repeat;
   line-height: 1px;}
@@ -61,7 +61,7 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;} /* <<   >>  */
 
-#currentSlide {text-align: center; font-size: 0.5em; color: #FFFF00;} /*   color: #449;  */
+#currentSlide {text-align: center; font-size: 0.5em; color: #FFFF00;} /*   color: #449;  It is nn/NNN*/
 
 #slide0 {padding-top: 3.5em; font-size: 85%;}
 #slide0 h1 {position: static; margin: 1em 0 0; padding: 0;
