@@ -2,7 +2,7 @@
 
 body {background: #FFF url(bodybg.gif) -16px 0 no-repeat; color: #000; font-size: 2em;}
 :link, :visited {text-decoration: none; color: #00C;}
-#controls :active {color: #88A !important;}
+#controls :active {color: #FFFF00 !important;} /* #88A */
 #controls :focus {outline: 1px dotted #227;}
 h1, h2, h3, h4 {font-size: 100%; margin: 0; padding: 0; font-weight: inherit;}
 ul, pre {margin: 0; line-height: 1em; }
@@ -20,7 +20,7 @@ sup {font-size: smaller; line-height: 1px;}
 
 .slide code {padding: 2px 0.25em; font-weight: bold; color: #533;}
 .slide code.bad, code del {color: red;}
-.slide code.old {color: #FFFF00;}  /*   */
+.slide code.old {color: #FFFF00;}  /*  silver */
 /*
 	<code><pre> source code </pre></code>
 */
