@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Earrings online store</title>
+<script type="text/javascript">
+<!--
+window.location = "https://www.tripleclicks.com/tcsearch/search:earrings/rating_operator:%3E%3D/rating:4.5/sort:sales_desc/category:-1/in_stock:1/mrp_operator:%3E%3D/"
+//-->
+</script>
+</head>
+<body>
+<header>
+<h1>Earrings e-store</h1>
+</header>
+<section>
+<a href="https://www.tripleclicks.com/tcsearch/search:earrings/rating_operator:%3E%3D/rating:4.5/sort:sales_desc/category:-1/in_stock:1/mrp_operator:%3E%3D/">
+<img src="https://kilarionov.github.io/images/earrings-set.png" alt="Earrings set"/>
+<h2>Best selling earrings</h2>
+</a>
+</section>
+</body>
+</html>
